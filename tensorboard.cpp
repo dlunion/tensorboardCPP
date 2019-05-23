@@ -217,7 +217,7 @@ int main(int argc, char** argv){
 
 			Sleep(300);
 			iter++;
-			printf("refush: %d\n", iter);
+			printf("flush: %d\n", iter);
 		}
 		my.close();
 	};
